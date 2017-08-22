@@ -120,6 +120,10 @@ DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 # Keystore
 TARGET_PROVIDES_KEYMASTER := true
 
+# Lineage Hardware
+JAVA_SOURCE_OVERLAYS := \
+    org.lineageos.hardware|$(DEVICE_PATH)/lineagehw|**/*.java
+
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -146,6 +150,9 @@ TARGET_USES_MKE2FS := true
 
 PRODUCT_VENDOR_MOVE_ENABLED := true
 TARGET_COPY_OUT_VENDOR := vendor
+
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/recovery.fstab
