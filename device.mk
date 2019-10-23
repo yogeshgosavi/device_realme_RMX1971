@@ -52,9 +52,5 @@ PRODUCT_COPY_FILES += \
 # Properties
 -include $(LOCAL_PATH)/device-props.mk
 
-# Sensors
-PRODUCT_PACKAGES += \
-android.hardware.sensors@1.0-impl.RMX1971
-
 # Inherit from proprietary version
 $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
