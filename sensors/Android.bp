@@ -1,5 +1,5 @@
 cc_library_shared {
-    name: "android.hardware.sensors@1.0-impl.realme_sdm710",
+    name: "android.hardware.sensors@1.0-impl.realme_RMX1901",
     defaults: ["hidl_defaults"],
     proprietary: true,
     relative_install_path: "hw",

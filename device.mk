@@ -155,7 +155,7 @@ PRODUCT_PACKAGES += \
 
 # Camera Motor
 PRODUCT_PACKAGES += \
-    vendor.lineage.camera.motor@1.0-service.realme_sdm710
+    vendor.lineage.camera.motor@1.0-service.realme_RMX1901
 
 # CNE
 PRODUCT_PACKAGES += \
@@ -234,8 +234,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.realme_sdm710 \
-    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.realme_sdm710 \
+    android.hardware.biometrics.fingerprint@2.1-service.realme_RMX1901 \
+    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.realme_RMX1901 \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
 
 PRODUCT_COPY_FILES += \
@@ -292,7 +292,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.realme_sdm710 \
+    android.hardware.light@2.0-service.realme_RMX1901 \
     lights.sdm710
 
 # Media
@@ -384,7 +384,7 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
-    android.hardware.sensors@1.0-impl.realme_sdm710 \
+    android.hardware.sensors@1.0-impl.realme_RMX1901 \
     libsensorndkbridge
 
 PRODUCT_COPY_FILES += \
