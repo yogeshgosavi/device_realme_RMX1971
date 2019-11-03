@@ -65,6 +65,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.sensortype=2 \
     vendor.display.enable_default_color_mode=1
 
+# Display density
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=420
+
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
     drm.service.enabled=true
@@ -95,6 +99,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Keystore
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore_desede=true
+
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
