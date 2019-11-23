@@ -45,12 +45,7 @@ limitations under the License.
             <Limit name="measured-frame-rate-1280x720" range="21-46" />
         </MediaCodec>
         <MediaCodec name="OMX.qcom.video.encoder.vp8" type="video/x-vnd.on2.vp8" update="true">
-        <!-- #ifndef VENDOR_EDIT -->
-        <!-- Yaojin@PSW.MM.MediaServer.Gsi.1935611, 2019/4/3, -->
-        <!--<Limit name="measured-frame-rate-320x180" range="370-390" />-->
-        <!-- #else //VENDOR_EDIT -->
-            <Limit name="measured-frame-rate-320x180" range="140-320" />
-        <!-- #endif //VENDOR_EDIT -->
+            <Limit name="measured-frame-rate-320x180" range="370-390" />
             <Limit name="measured-frame-rate-640x360" range="180-220" />
             <Limit name="measured-frame-rate-1280x720" range="49-73" />
             <Limit name="measured-frame-rate-1920x1080" range="30-44" />
