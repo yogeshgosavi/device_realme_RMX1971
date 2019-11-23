@@ -451,16 +451,6 @@
         <fqname>@1.0::IDisplayPostproc/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.dolby.hardware.dms</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IDms</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IDms/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.oppo.engnative.engineer</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -914,25 +904,6 @@
             <instance>imsrtpservice</instance>
         </interface>
         <fqname>@1.0::IRTPService/imsrtpservice</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.lineage.camera.motor</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ICameraMotor</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::ICameraMotor/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.lineage.biometrics.fingerprint.inscreen</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IFingerprintInscreen</name>
-            <instance>default</instance>
-        </interface>
     </hal>
     <sepolicy>
         <version>28.0</version>
