@@ -6,7 +6,7 @@
 
 BOARD_VENDOR := realme
 
-DEVICE_PATH := device/realme/RMX1901
+DEVICE_PATH := device/realme/RMX1971
 
 # Architecture
 TARGET_ARCH := arm64
@@ -24,7 +24,7 @@ TARGET_2ND_CPU_VARIANT := cortex-a75
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX1901,RMX1901CN
+TARGET_OTA_ASSERT_DEVICE := RMX1971,RMX1971CN
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm710
@@ -43,8 +43,8 @@ TARGET_KERNEL_ARCH := arm64
 ifeq ($(TARGET_PREBUILT_KERNEL),)
   #TARGET_KERNEL_CLANG_COMPILE := true
   TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-  TARGET_KERNEL_SOURCE := kernel/realme/RMX1901
-  TARGET_KERNEL_CONFIG := RMX1901_defconfig
+  TARGET_KERNEL_SOURCE := kernel/realme/RMX1971
+  TARGET_KERNEL_CONFIG := RMX1971_defconfig
 endif
 
 # Platform
@@ -190,4 +190,4 @@ WIFI_DRIVER_OPERSTATE_PATH := "/sys/class/net/wlan0/operstate"
 WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Inherit from the proprietary version
--include vendor/realme/RMX1901/BoardConfigVendor.mk
+-include vendor/realme/RMX1971/BoardConfigVendor.mk

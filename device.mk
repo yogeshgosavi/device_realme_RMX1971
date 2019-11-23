@@ -10,7 +10,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/realme/RMX1901/RMX1901-vendor.mk)
+$(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
@@ -120,7 +120,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml \
     $(LOCAL_PATH)/audio/listen_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/listen_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
-    $(LOCAL_PATH)/audio/mixer_paths_18041.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_18041.xml \
+    $(LOCAL_PATH)/audio/mixer_paths_19691.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_19691.xml \
     $(LOCAL_PATH)/audio/mixer_paths_360cam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_360cam.xml \
     $(LOCAL_PATH)/audio/mixer_paths_i2s.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_i2s.xml \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml \
@@ -149,14 +149,6 @@ PRODUCT_PACKAGES += \
     libxml2 \
     Snap
 
-# Camera Helper
-PRODUCT_PACKAGES += \
-    RealmeCameraHelper
-
-# Camera Motor
-PRODUCT_PACKAGES += \
-    vendor.lineage.camera.motor@1.0-service.realme_RMX1901
-
 # CNE
 PRODUCT_PACKAGES += \
     cneapiclient \
@@ -169,7 +161,6 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.crda.sh \
     init.mdm.sh \
-    init.oppo.face.sh \
     init.oppo.fingerprints.sh \
     init.oppo.wifi.sh \
     init.qcom.class_core.sh \
@@ -232,12 +223,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.realme_RMX1901 \
-    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.realme_RMX1901 \
+    android.hardware.biometrics.fingerprint@2.1-service.realme_RMX1971 \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
-
-PRODUCT_COPY_FILES += \
-    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # GPS
 PRODUCT_COPY_FILES += \
@@ -290,7 +277,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.realme_RMX1901 \
+    android.hardware.light@2.0-service.realme_RMX1971 \
     lights.sdm710
 
 # Media
@@ -382,7 +369,7 @@ PRODUCT_COPY_FILES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
-    android.hardware.sensors@1.0-impl.realme_RMX1901 \
+    android.hardware.sensors@1.0-impl.realme_RMX1971 \
     libsensorndkbridge
 
 PRODUCT_COPY_FILES += \
