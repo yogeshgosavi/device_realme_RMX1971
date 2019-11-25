@@ -319,6 +319,7 @@ vendor/lib/libarcsoft_smart_denoise.so
 vendor/lib/libarcsoft_super_night_raw.so
 vendor/lib/libblur_channel.so
 vendor/lib/libbokehclient.so
+vendor/lib/libc++_shared.so
 vendor/lib/libcamera_core_hwi.so
 vendor/lib/libcamhidlsensor.so
 vendor/lib/libcamxfdalgov7.so
@@ -331,6 +332,7 @@ vendor/lib/libfastcrc.so
 vendor/lib/libffv.so
 vendor/lib/libiu456_datapath_filt_lib.so
 vendor/lib/libiu456_datapath_processor.so
+vendor/lib/libgui_vendor.so
 vendor/lib/libmegface.so
 vendor/lib/libmegface_meglive.so
 vendor/lib/libMegviiHum.so
@@ -371,12 +373,25 @@ vendor/lib/libstface_seg_ocl.so
 vendor/lib/libst_personblur.so
 vendor/lib/libst_scb_dep1.so
 vendor/lib/libst_segmentation.so
+vendor/lib/libstdc++.so
+vendor/lib/libSTdisp.so
+vendor/lib/libSTDualCamCaptureBokeh.so
+vendor/lib/libSTDualCamPreviewBokeh.so
 vendor/lib/libswregistrationalgo.so
 vendor/lib/libswvdec.so
+vendor/lib/libsymphony-cpu.so
+vendor/lib/libsymphonypower.so
 vendor/lib/libthread_blur.so
 vendor/lib/libtriplecam_image_optical_zoom.so
 vendor/lib/libtriplecam_optical_zoom_control.so
 vendor/lib/libtriplecam_video_optical_zoom.so
+vendor/lib/libVDBlurlessAPI_v2.so
+vendor/lib/libVDDualCameraBlurlessAPI.so
+vendor/lib/libVDEyeEnhance.so
+vendor/lib/libVDImageAdjustment.so
+vendor/lib/libVDPostureDetection.so
+vendor/lib/libVDRTImageAdjustment.so
+vendor/lib/libVDSuperPhotoAPI.so
 vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
 vendor/lib/libvslam.so
@@ -398,6 +413,7 @@ vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/libarcsoft_distortion_correction.so
 vendor/lib64/libbokehclient.so
+vendor/lib64/libc++_shared.so
 vendor/lib64/libcamxfdalgov7.so
 vendor/lib64/libcamxfdengine.so
 vendor/lib64/libcamxstatscore.so
@@ -413,6 +429,7 @@ vendor/lib64/libsns_fastRPC_util.so
 vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libSonyIMX471RmscLibrary.so
 vendor/lib64/libstface_fd_api.so
+vendor/lib64/libstdc++.so
 vendor/lib64/libswvdec.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
