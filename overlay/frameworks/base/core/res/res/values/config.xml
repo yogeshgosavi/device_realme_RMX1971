@@ -125,7 +125,6 @@
     <!-- Boolean indicating whether single radio chain scan results are to be used for network selection -->
     <bool translatable="false" name="config_wifi_framework_use_single_radio_chain_scan_results_network_selection">true</bool>
 
-
     <!-- Wifi driver supports batched scan -->
     <bool translatable="false" name="config_wifi_batched_scan_supported">true</bool>
 
