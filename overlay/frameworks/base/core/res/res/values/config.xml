@@ -121,12 +121,11 @@
          capability can provide power savings when wifi needs to be always kept on. -->
     <bool translatable="false" name="config_wifi_background_scan_support">true</bool>
 
-<<<<<<< HEAD
+
     <!-- Boolean indicating whether single radio chain scan results are to be used for network selection -->
     <bool translatable="false" name="config_wifi_framework_use_single_radio_chain_scan_results_network_selection">true</bool>
 
-=======
->>>>>>> 3c8e146... RMX1971: RMX1971EX_11_A.16 sync
+
     <!-- Wifi driver supports batched scan -->
     <bool translatable="false" name="config_wifi_batched_scan_supported">true</bool>
 
