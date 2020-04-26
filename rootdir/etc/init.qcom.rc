@@ -1,4 +1,4 @@
-# Copyright (c) 2009-2012, 2014-2018, The Linux Foundation. All rights reserved.
+# Copyright (c) 2009-2012, 2014-2018, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -1585,8 +1585,3 @@ on property:ro.vendor.oppo.product.name=*
 on property:ro.vendor.oppo.product.device=*
     setprop ro.product.vendor.device ${ro.vendor.oppo.product.device}
 #endif
-
-service debug_logcat /system/bin/logcat -f /data/logcat.txt -v threadtime
-    class main
-    user root
-    group system
